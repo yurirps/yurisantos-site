@@ -1,15 +1,17 @@
 import Navbar from "@/components/header/navbar";
+import Habilidades from "@/components/perfil/habilidades";
+import Sobre from "@/components/perfil/sobre";
 
 export default function Home() {
   return (
     <>
-    <Navbar />
-    <main>
-      <section>
-        <h1>Olha YUri</h1>
-        <p>Deve front etc etc etc tec</p>
-      </section>
-    </main>
+      <main>
+        <section>
+          <Navbar />
+          <Sobre />
+          <Habilidades />
+        </section>
+      </main>
     </>
   );
 }
